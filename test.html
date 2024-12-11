@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <header class="bg-slate-300 flex justify-between p-6">
+        <h1 class="text-3xl font-bold text-blue-600">My store</h1>
+        <ul class="flex items-right">
+            <li><a class="text-1xl font-medium mx-3 hover:text-red-400" href="#">Home</a></li>
+            <li><a class="text-1xl font-medium mx-3 hover:text-red-400"  href="#">Products</a></li>
+            <li><a class="text-1xl font-medium mx-3 hover:text-red-400"  href="#">About</a></li>
+            <li><a class="text-1xl font-medium mx-3 hover:text-red-400"  href="#">Contact</a></li>
+        </ul>
+    </header>
+    <main>
+        <section class="my-12 text-center">
+            <h1 class="font-bold text-4xl text-center pt-10">Our products</h1>
+            <p class="text-1xl text-center mt-2">Discover our exclusive products</p>
+        </section>
+        <section class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-10">
+            <div class="product mx-4 bg-white rounded-lg shadow-md shadow-slate-300 p-6 hover:shadow-slate-500">
+                <img src="/img/300x200.png" class="rounded-lg w-full">
+                <h1 class="text-left font-bold text-2xl mt-5">Product 1</h1>
+                <p>A short product description goes here.</p>
+                <button class="bg-blue-500 p-2 text-white mt-4 rounded-sm">Shop Now</button>
+            </div>
+
+            <div class="product bg-white rounded-lg shadow-md shadow-slate-300 p-6 hover:shadow-slate-500 p-6">
+                <img src="/img/300x200.png" class="rounded-lg w-full">
+                <h1 class="text-left font-bold text-2xl mt-5">Product 1</h1>
+                <p>A short product description goes here.</p>
+                <button class="bg-blue-500 p-2 text-white mt-4 rounded-sm">Shop Now</button>
+            </div>
+        </section>
+    </main>
+    <footer class="bg-[#29235c] p-6 text-center text-1xl text-white">
+        <p>© 2024 My Store. All rights reserved.</p>
+    </footer>
+</body>
+</html>
